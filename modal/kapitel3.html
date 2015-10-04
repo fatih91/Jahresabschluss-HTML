@@ -1,173 +1,361 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Jahresabschluss Klausurvorbereitung</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="../css/bootstrap.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="../css/styles.css" rel="stylesheet">
-	</head>
-	<body>
+<html lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Jahresabschluss Klausurvorbereitung</title>
+	<meta name="generator" content="Bootply" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link href="../css/styles.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
 
-<header class="navbar navbar-default navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="../index.html" class="navbar-brand">Jahresabschluss</a>
-    </div>
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="kapitel1.html">Kapitel 1</a>
-        </li>
-        <li>
-          <a href="kapitel2.html">Kapitel 2</a>
-        </li>
-        <li>
-          <a href="kapitel3.html">Kapitel 3</a>
-        </li>
-        <li>
-          <a href="kapitel4.html">Kapitel 4</a>
-        </li>
-        <li>
-          <a href="ubung.html">Übung</a>
-        </li>
-				<li>
-					<a href="hgb.html">HGB</a>
-				</li>
-      </ul>
-    </nav>
-  </div>
-</header>
+	<header class="navbar navbar-default navbar-static-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="../index.html" class="navbar-brand">Jahresabschluss</a>
+			</div>
+			<nav class="collapse navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="kapitel1.html">Kapitel 1</a>
+					</li>
+					<li>
+						<a href="kapitel2.html">Kapitel 2</a>
+					</li>
+					<li>
+						<a href="kapitel3.html">Kapitel 3</a>
+					</li>
+					<li>
+						<a href="kapitel4.html">Kapitel 4</a>
+					</li>
+					<li>
+						<a href="ubung.html">Übung</a>
+					</li>
+					<li>
+						<a href="hgb.html">HGB</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-<!-- Begin Body -->
-<div class="container">
-	<div class="row">
-  			<div class="col-md-3" id="leftCol">
+	<!-- Begin Body -->
 
-				<div class="well">
-              	<ul class="nav nav-stacked" id="sidebar">
-                  <li><a href="#sec1">Hallo 3</a></li>
-                  <li><a href="#sec2">Section 2</a></li>
-                  <li><a href="#sec3">Section 3</a></li>
-                  <li><a href="#sec4">Section 4</a></li>
-              	</ul>
-  				</div>
+	<div class="container">
+    <div class="row">
 
-      		</div>
-      		<div class="col-md-9">
-              	<h2 id="sec0">Content</h2>
-                At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can
-              	find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.
+      <div class="col-md-3" id="myScrollspy">
+        <ul style="background: #4baac8;" id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
+          <li><a href="#section1">Die Grundsätze ordnungsgemäßiger Buchführung(GoB)</a></li>
+					<li><a href="#section2">GoB: Begriff</a></li>
+					<li><a href="#section3">Gewinnung von GoB</a></li>
+					<li><a href="#section4">Rechungszwecke</a>
+						<ul class='nav'>
+							<li><a href="#usection1">Dokumentationsfunktion</a></li>
+							<li><a href="#usection2">Informationsfunktion</a></li>
+							<li><a href="#usection3">Ausschüttungsbemessungsfunktion</a></li>
+							</ul>
+					</li>
+					<!-- <li><a href="#section3">Historie</a></li> -->
+					<li><a href="#section5">Regelungssysteme</a></li>
 
+          <!-- <li><a href="#section2">Web Development</a>
+            <ul class="nav">
+              <li><a href="#usection1"><span class="fa fa-angle-double-right"></span>Ruby</a></li>
+              <li><a href="#usection2"><span class="fa fa-angle-double-right"></span>Python</a></li>
+              <li><a href="#usection3"><span class="fa fa-angle-double-right"></span>PHP</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
 
-
-              	<hr class="col-md-12">
-              	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.
-              	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-
-
-
-              	<h2 id="sec1">Content</h2>
-              	<p>
-                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-              	</p>
-              	<div class="row">
-                  <div class="col-md-6">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"><h3>Hello.</h3></div>
-                      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                      Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
-                      dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
-                      Aliquam in felis sit amet augue.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="panel panel-default">
-                      <div class="panel-heading"><h3>Hello.</h3></div>
-                      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                      Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
-                      dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
-                      Aliquam in felis sit amet augue.
-                      </div>
-                    </div>
-                  </div>
-              	</div>
-
-              	<hr>
-
-              	<h2 id="sec2">Section 2</h2>
-              	<p>
-                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-              	</p>
-              	<div class="row">
-              		<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-                  	<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-                  	<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-              	</div>
-
-              	<hr>
-
-              	<h2 id="sec3">Section 3</h2>
-      			Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..
-              	<br>
-                Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..
+      <div class="col-md-9">
+        <section id="section1">
+          <h2>Die Grundsätze ordnungsmäßiger Buchführung</h2>
+					<ul>
+					<li id="bigli">Inhalte und Zusammenhang der wichtigsten Grundprinzipien der Rechnungslegung</li>
+					<li id="bigli">Bilanzierungsprobleme lösen durch Rückgriff auf grundlegende Prinzipien</li>
+					<!--<li id="bigli">Aggregations- und Darstellungsregeln - In welcher Form werden die erfassten und bewerteten Vorgänge dargestellt?</li> -->
+					</ul>
 
 
-              	<h2 id="sec4">Section 4</h2>
-      			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+        </section><!--end of section1-->
 
+				<section id="section2">
+						<h2>Begriff</h2>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Handelsrecht:</h3>
+							</div>
+							<div class="panel-body">
+							<li><a href="http://www.gesetze-im-internet.de/hgb/__238.html" data-toggle="tooltip" data-placement="right" title="Jeder Kaufmann ist verpflichtet, Bücher zu führen und in diesen seine Handelsgeschäfte und die Lage seines Vermögens nach den Grundsätzen ordnungsmäßiger Buchführung ersichtlich zu machen. "> Buchführungspflicht §238 Abs. 1 S. 1</a></li>
 
-              	<hr>
-              <h4><a href="http://bootply.com/100993">Edit on Bootply</a></h4>
-              	<hr>
+							<li><a href="http://www.gesetze-im-internet.de/hgb/__239.html" data-toggle="tooltip" data-placement="right" title="Die Handelsbücher und die sonst erforderlichen Aufzeichnungen können auch in der geordneten Ablage von Belegen bestehen oder auf Datenträgern geführt werden, soweit diese Formen der Buchführung einschließlich des dabei angewandten Verfahrens den Grundsätzen ordnungsmäßiger Buchführung entsprechen."> Führung der Handelsbücher §239 Abs. 4 S. 1</a></li>
 
+							<li><a href="http://www.gesetze-im-internet.de/hgb/__241.html" data-toggle="tooltip" data-placement="right" title=" Das Verfahren muß den Grundsätzen ordnungsmäßiger Buchführung entsprechen."> Inventurvereinfachungsverfahren §241 Abs. 1 S. 2</a></li>
 
-      		</div>
-  	</div>
-</div>
+							<li><a href="http://www.gesetze-im-internet.de/hgb/__243.html" data-toggle="tooltip" data-placement="right" title="Der Jahresabschluß ist nach den Grundsätzen ordnungsmäßiger Buchführung aufzustellen."> Aufstellungsgrundsatz §243 Abs. 1</a></li>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Steuerrecht</h3>
+							</div>
+							<div class="panel-body">
+								<li><a href="http://www.gesetze-im-internet.de/estg/__5.html" data-toggle="tooltip" data-placement="right" title="Bei Gewerbetreibenden, die auf Grund gesetzlicher Vorschriften verpflichtet sind, Bücher zu führen und regelmäßig Abschlüsse zu machen, oder die ohne eine solche Verpflichtung Bücher führen und regelmäßig Abschlüsse machen, ist für den Schluss des Wirtschaftsjahres das Betriebsvermögen anzusetzen (§ 4 Absatz 1 Satz 1), das nach den handelsrechtlichen Grundsätzen ordnungsmäßiger Buchführung auszuweisen ist, es sei denn, im Rahmen der Ausübung eines steuerlichen Wahlrechts wird oder wurde ein anderer Ansatz gewählt. 2Voraussetzung für die Ausübung steuerlicher Wahlrechte ist, dass die Wirtschaftsgüter, die nicht mit dem handelsrechtlich maßgeblichen Wert in der steuerlichen Gewinnermittlung ausgewiesen werden, in besondere, laufend zu führende Verzeichnisse aufgenommen werden. 3In den Verzeichnissen sind der Tag der Anschaffung oder Herstellung, die Anschaffungs- oder Herstellungskosten, die Vorschrift des ausgeübten steuerlichen Wahlrechts und die vorgenommenen Abschreibungen nachzuweisen.">Gewinn bei Kaufleuten und bei bestimmten anderen Gewerbetreibenden §5 Abs. 1</a></li>
+
+								<li><a href="http://www.gesetze-im-internet.de/estg/__6.html" data-toggle="tooltip" data-placement="right" title="Steuerpflichtige, die den Gewinn nach § 5 ermitteln, können für den Wertansatz gleichartiger Wirtschaftsgüter des Vorratsvermögens unterstellen, dass die zuletzt angeschafften oder hergestellten Wirtschaftsgüter zuerst verbraucht oder veräußert worden sind, soweit dies den handelsrechtlichen Grundsätzen ordnungsmäßiger Buchführung entspricht. 2Der Vorratsbestand am Schluss des Wirtschaftsjahres, das der erstmaligen Anwendung der Bewertung nach Satz 1 vorangeht, gilt mit seinem Bilanzansatz als erster Zugang des neuen Wirtschaftsjahres. 3Von der Verbrauchs- oder Veräußerungsfolge nach Satz 1 kann in den folgenden Wirtschaftsjahren nur mit Zustimmung des Finanzamts abgewichen werden.">Bewertung §6 Abs. 1 Nr. 2a</a></li>
+							</div>
+						</div>
+
+				</section><!--end of section2-->
+			  <section id="section3">
+					<h2>Gewinnunng von GoB</h2
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+						massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+						quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+						Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+					</p>
+					<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+						tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+						tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+					</p>
+					<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+						viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+						Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+						Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+						adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+					</p>
+					<button type="button" class="btn btn-primary">Learn More</button>
+				</section><!--end of #marketing-->
+        <section id="section10">
+          <h2>Rechnungszwecke</h2>
+          <section id="usection1">
+            <h3>Dokumentationsfunktion</h3>
+            <li id="bigli">Beweismittel, Vermögensübersicht</li>
+          </section><!--end of usection1-->
+
+          <section id="usection2">
+            <h3>Informationsfunktion</h3>
+						<!--Box öffnen-->
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingOne">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						          Selbstinformation
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						      <div class="panel-body">
+										Interne Unternehmensrechnung
+									</div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingTwo">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						          Entscheidungsunterstützung
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="panel-body">
+						        <li><a href="http://www.gesetze-im-internet.de/hgb/__264.html" data-toggle="tooltip" data-placement="right" title="Der Jahresabschluß der Kapitalgesellschaft hat unter Beachtung der Grundsätze ordnungsmäßiger Buchführung ein den tatsächlichen Verhältnissen entsprechendes Bild der Vermögens-, Finanz- und Ertragslage der Kapitalgesellschaft zu vermitteln."> Pflicht zur Aufstellung; Befreiung §264 Abs. 2 S. 1</a></li>
+										<br>
+										<p>Beispiel Tui zeigt: Marktteilnehmer nehmen das Informationsinstrument anscheinend
+										ernst und nutzen es für Entscheidungen - im Beispiel für Verkaufsentscheidungen</p>
+
+										<p>Rechtfertigen erhöhte Abschreibungen von 120 Mio. Euro Korrektur des Aktienkurses um mehrere Prozent? Denkbare Erklärungen:</p>
+
+										<ul>
+											<li>Erhöhte Abschreibungen bedeuten geringere Profitabilität in der aktuellen Periode. Marktteilnehmer schließen von aktueller auf künftige Profitabilität und passen Erwartungen für die Zukunft an.</li>
+											<li>Nachträgliche Korrektur erschüttert Vertrauen der Anleger in das Management, deshalb Preisabschlag.</li>
+										</ul>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingThree">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          Rechenschaftslegung und Beurteilung der Unternehmensleitung
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						      <div class="panel-body">
+						      	<p><font color="red">Rechenschaft</font> und <font color="red">Beurteilung</font> ist dann WICHTIG, wenn Eigentum und Leitung auseinanderfallen.</p>
+
+										<p>Beispiele für die Rechenschaftsfunktion:</p>
+										<ul>
+											<li>Mitglieder haben Einsichtsrecht in Jahresabschluss</li>
+											<li>Kassenbericht auf der Generalversammlung</li>
+										</ul>
+
+										<p>Beispiele	für die Beurteilung von Managern:</p>
+										<ul>
+											<li>Verwendung von Gewinn</li>
+											<li>						<!-- Button trigger modal -->
+											<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal">
+											  Beispiele
+											</button>
+
+											<!-- Modal -->
+											<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-header">
+											        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											        <h4 class="modal-title" id="myModalLabel">Beispiel</h4>
+											      </div>
+											      <div class="modal-body">
+
+															<div class="container-fluid">
+															<div class="col-sm-12 col-md-12">
+																<div class="thumbnail"
+																	<p>Portsche Geschäftsbericht 2007/2008, Anhang</p>
+																	<img src="../images/aufsichtsrat.jpg"><img>
+																</div>
+															</div>
+														</div>
+
+											      </div>
+											      <div class="modal-footer">
+											        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											      </div>
+											    </div>
+											  </div>
+											</div> finden sich in Geschäftsberichte von Unternehmen</li>
+										</ul>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+          </section><!--end of usection2-->
+
+          <section id="usection3">
+            <h3>Ausschüttungsbemessungsfunktion</h3>
+						<ul>
+							<li id="bigli">Rechtsgrundlage für Gewinnausschüttungen an Anteilseigner</li>
+							<li id="bigli">Steuerzahlung</li>
+						</ul>
+          </section><!--end of usection3-->
+        </section><!--end of section2-->
+
+        <!-- <section id="section3">
+          <h2>Historie</h2
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+            quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          </p>
+          <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+            tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+            tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+          <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+            viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+            Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+            adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </section><!--end of #marketing--> -->
+
+        <section id="section4">
+          <h2>Regelungssysteme</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+            quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          </p>
+          <p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc. Etiam ultricies nisi vel augue.
+            Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
+            tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+            quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </section><!--end of #mathematics-->
+      </div>
+
+    </div><!--end of .row-->
+  </div><!--end of .container-->
+
+  <section class="application">
+    <div class="container">
+      <h2>Come and Join Us</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+          Nullam quis ante.
+          </p>
+
+        </div>
+        <div class="col-sm-6">
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+          Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+          Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+          Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+          Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+          Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+          Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+          </p>
+          <button type="button" class="btn btn-primary">Apply Now</button>
+        </div>
+      </div><!--end of .row-->
+    </div><!--end of .container-->
+  </section>
 
 
 
 	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/scripts.js"></script>
-	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/scripts.js"></script>
+</body>
 </html>

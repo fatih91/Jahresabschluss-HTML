@@ -34,10 +34,10 @@ padding: 40px 0;
 border-bottom: 1px solid #c1e1ec;
 }
 
-#section2,
+/*#section2,
 #mobile-development {
 padding-bottom: 0;
-}
+}*/
 
 section:last-child {
 border-bottom: none;
